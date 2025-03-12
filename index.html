@@ -3,482 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E Mart</title>
+    <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="img/E-Mart.png">
-
-
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-...">
 </head>
 <body>
-    <section id="header">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </nav>
+            <div class="heder-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Kevin</span> <br>Jen From Australia</h1>
+            </div>
+    </div>
+<!-- ------------About----------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="images/user.png" alt="">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, quidem ad repudiandae possimus ea dolores tenetur illum cupiditate repellendus, nam fugit aliquam dicta debitis ex accusamus quisquam maiores explicabo! Quisquam.
+            Corrupti, voluptatem ratione ab maiores deserunt sunt quae possimus ducimus, atque nesciunt ea laborum minima a earum, officia dolorum soluta sapiente qui magni cumque necessitatibus eius! Nostrum magni quasi necessitatibus.</p>
+            
+        <div class="tab-titles">
+            <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+            <div class="tab-links"  onclick="opentab('experience')">Experience</div>
+            <div class="tab-links"  onclick="opentab('education')">Education</div>
+        </div>
         
-            <a href=""><img src="../image/img/logo.png" alt=""></a>
-        
-            <div>
-                <ul id="navbar">
-                    <li><a class="active" href="Home.html">Home</a></li>
-                    <li><a  href="Shop.html">Shop</a></li>
-                    <li><a href="Blog.html">Blog</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                    <li id="lg-bg"><a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                    <a href="#" id="close"><i class="far fa-times"></i></a>
-
-
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web App Interface</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>App Development</span><br>Building Android/ios App</li>
                 </ul>
             </div>
-            <div id="mobile">
-            <a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
-            <i id="bar" class="fas fa-outdent"></i>
 
-            </div>
-    </section>  
-
-    <section id="hero">
-    <h4>Trade-in-offer</h4>
-    <h2>Super value deals</h2>
-    <h1>On All Products</h1>
-    <p>Save More With Coupons & upto 70% offer</p>
-    <button>Shop Now</button>
-    </section>
-
-    <section id="feature" class="section-p1">
-
-
-        <div class="fe-box">
-            <img src="../image/img/f1.png" alt="">
-            <h6>Free Shipping</h6>
-        </div>
-
-        <div class="fe-box">
-            <img src="../image/img/f2.png" alt="">
-            <h6>Online Order</h6>
-        </div>
-
-        <div class="fe-box">
-            <img src="../image/img/f3.png" alt="">
-            <h6>Save Money</h6>
-        </div>
-
-        <div class="fe-box">
-            <img src="../image/img/f4.png" alt="">
-            <h6>Promotion</h6>
-        </div>
-
-        <div class="fe-box">
-            <img src="../image/img/f5.png" alt="">
-            <h6>Happy Sell</h6>
-        </div>
-
-        <div class="fe-box">
-            <img src="../image/img/f6.png" alt="">
-            <h6> 24/7 Support</h6>
-        </div>
-
-
-
-    </section>
-
-
-    <section id="product1" class="section-p1">
-                <h2>Featured Products</h2>
-        <p>Summer Collection New Modern Design</p>
-        <div class="pro-container">
-            <div class="pro">
-                <img src="../image/img/f1.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2021-current</span><br>UI/UX Design Training at ET Institute</li>
+                    <li><span>2019-2021</span><br>Team Lead At StarApp LLC</li>
+                    <li><span>2017-2019t</span><br>UI/UX Design Executive  at Coin Digital Ltd</li>
+                    <li><span>2016-2017</span><br>Internship At EKart eCommerce</li>
+                </ul>
             </div>
 
-            <div class="pro">
-                <img src="../image/img/f2.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                    <li><span>2016</span><br>MBA from MIT Bangalore<./li>
+                    <li><span>2014</span><br>MBA from ISM Bangalore.</li>
+                </ul>
             </div>
-
-            <div class="pro">
-                <img src="../image/img/f3.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="../image/img/f4.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="../image/img/f5.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="../image/img/f6.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="../image/img/f7.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="../image/img/f8.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            
-        </div>
-
-    </section>
-
-    <section id="banner" class="section-m1">
-        <h4>Repair Services</h4>
-        <h2>Up to <span>70% off</span> All T-shirts and Accessories</h2>
-        <button class="normal">Explore More</button>
-    </section>
-
-    <section id="product1" class="section-p1">
-        <h2>New Arrival</h2>
-        <p>Summer Collection New Modern Design</p>
-        <div class="pro-container">
-            <div class="pro">
-                <img src="../image/img/n1.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="../image/img/n2.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="../image/img/n3.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="../image/img/n4.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="../image/img/n5.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="../image/img/n6.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="../image/img/n7.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="../image/img/n8.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            
-        </div>
-
-    </section>
-
-    <section id="sm-banner" class="section-p1">
-
-        <div class="banner-box">
-        <h4>Crazy deals</h4>
-        <h2>buy 1 get 1 free</h2>
-        <span>The Best Classic Dress is on Sale at Cara </span>
-        <button class="white">Learn More</button>
-        </div>
-
-        <div class="banner-box banner-box2">
-        <h4>Spring Summer</h4>
-        <h2>Upcoming Season</h2>
-        <span>The Best Classic Dress is on Sale at Cara </span>
-        <button class="white">Collection</button>
-        </div>
-    </section>
-
-    <section id="banner3">
-        <div class="banner-box ">
-            <h2>Seasonel Sale</h2>
-            <h3>Winter Collection -50% Off</h3>
-        </div>
-
-        <div class="banner-box banner-box2">
-            <h2>New FootWear Collection</h2>
-            <h3>Spring/summer - 2025</h3>
-        </div>
-
-        <div class="banner-box banner-box3">
-            <h2>T-Shirts</h2>
-            <h3>New Trendy Prints</h3>
-        </div>
-
-    </section>
-
-    <section id="newsletter" class="section-p1">
-        <div class="newstext">
-        <h4>Sign Up For news Letters</h4>
-        <p>Get Email updates about our latest shop <span>special offers.</span></p>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="your Email Address...">
-            <button class="normal">Sign Up</button>
-        </div>
-    </section>
-
-<footer class="section-p1">
-    <div class="col">
-        <img class="logo" src="img/logo.png" alt="">
-        <h4>Contact</h4>
-        <p><strong>Address</strong>: jayanagar 5th cross 2nd main road Bangalore</p>
-        <p><strong>Phone</strong>: 6361736795</p>
-        <p><strong>Hours</strong>: 9AM - 10PM MON to SAT</p>
-        <div class="follow">
-        <h4>Follow Us</h4>
-        <div class="icon">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-pinterest"></i>
-            <i class="fa-brands fa-youtube"></i>
         </div>
         </div>
     </div>
+</div>
+<!-- ------------About----------------- -->         
 
-    <div class="col">
-    <h4>About</h4>
-    <a href="#">Delivary Information</a>
-    <a href="#">Privacy Policy</a>
-    <a href="#">Terms And Condition</a>
-    <a href="#">Contact Us</a>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta officiis dignissimos est beatae, possimus, eum, amet eos praesentium recusandae atque nam ratione sunt! Consequuntur amet reprehenderit, molestias tempora ut dolorem.</p>
+            <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta officiis dignissimos est beatae, possimus, eum, amet eos praesentium recusandae atque nam ratione sunt! Consequuntur amet reprehenderit, molestias tempora ut dolorem.</p>
+            <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta officiis dignissimos est beatae, possimus, eum, amet eos praesentium recusandae atque nam ratione sunt! Consequuntur amet reprehenderit, molestias tempora ut dolorem.</p>
+            <a href="#">Learn More</a>
+            </div>
+        </div>
     </div>
+</div>
 
-    <div class="col">
-        <h4>My Account</h4>
-    <a href="#">Sign In</a>
-    <a href="#">View Cart</a>
-    <a href="#">My Wishlist</a>
-    <a href="#">Track My Order</a>
-    <a href="#">Help</a>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing . repellat natus hic aut accusantium iusto esse dicta ad in quaerat veritatis</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                <h3>Music App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil um iusto esse dicta ad in quaerat veritatis quae distinctio dolore, quasi.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellat natus hic aut accusantium iusto esse dicta ad in quaerat veritatis quae .</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
     </div>
+</div>
 
-    <div class="col install">
-    <h4>Install App</h4>
-    <p>From app store or google play</p>
-    <div class="row">
-    <img src="../image/img/app.jpg" alt="">
-    <img src="../image/img/play.jpg" alt="">
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact-me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>  contact@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>  6361736795</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" class="btn btn2" >Download CV</a>
+            </div> 
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
     </div>
-    <p>Secured Payment Gateways</p>
-    <img src="../image/img/pay.png" alt="">
-    </div>
+</div>
 
-    <div class="copyright">
-    <p>2025 Code Quest - HTML CSS Javascript E- commerce template</p>
-    </div>
-</footer>
+<div class="copyright"</div>
+<p>copyright @ Kevin <i class="fas fa-heart"></i>  by East tutorial</p>
 
 
-    <script type="module" src="script.js"></script>
+<script>
+    var tablinks = document.getElementByClassName("tab-links");
+    var tabcontents = document.getElementByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }   
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
 </body>
 </html>
